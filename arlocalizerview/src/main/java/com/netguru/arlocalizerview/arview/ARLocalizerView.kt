@@ -105,7 +105,7 @@ class ARLocalizerView : FrameLayout, LifecycleObserver {
         val preview = if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
             AutoFitPreviewBuilder.build(
                 PreviewConfig.Builder()
-                    .setTargetResolution(Size(1080, 1090))
+                    .setTargetResolution(Size(1080, 1920))
                     .build(),
                 texture_view
             )
