@@ -11,7 +11,6 @@ import android.widget.FrameLayout
 import androidx.camera.camera2.Camera2Config
 import androidx.camera.core.CameraX
 import androidx.camera.core.Preview
-import androidx.camera.core.PreviewConfig
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleObserver
 import androidx.lifecycle.Observer
