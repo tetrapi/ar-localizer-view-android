@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-521125963/app.iml" filepath="$PROJECT_DIR$/.idea/modules/-521125963/app.iml" group="ar-localizer-view-android/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1942024611/ar-localizer-view-android.iml" filepath="$PROJECT_DIR$/.idea/modules/1942024611/ar-localizer-view-android.iml" group="ar-localizer-view-android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/arlocalizerview.iml" filepath="$PROJECT_DIR$/.idea/modules/arlocalizerview.iml" group="ar-localizer-view-android/arlocalizerview" />
+    </modules>
+  </component>
+</project>
