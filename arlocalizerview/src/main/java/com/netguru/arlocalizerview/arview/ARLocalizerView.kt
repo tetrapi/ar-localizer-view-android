@@ -8,6 +8,7 @@ import android.util.AttributeSet
 import android.util.Size
 import android.view.View
 import android.widget.FrameLayout
+import androidx.camera.camera2.Camera2Config
 import androidx.camera.core.CameraX
 import androidx.camera.core.Preview
 import androidx.camera.core.PreviewConfig
@@ -103,14 +104,7 @@ class ARLocalizerView : FrameLayout, LifecycleObserver {
     }
 
     private fun startCameraPreview() {
-        val preview = AutoFitPreviewBuilder.build(
-            PreviewConfig.Builder().build(),
-            texture_view
-        )
-        CameraX.bindToLifecycle(
-            arLocalizerComponent.arLocalizerDependencyProvider().getARViewLifecycleOwner(),
-            preview
-        )
+
     }
 
     private fun showErrorDialog(message: String) {
